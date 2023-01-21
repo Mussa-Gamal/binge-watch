@@ -6,14 +6,11 @@ body{
     height: 100%;
 }
 @font-face {
-    font-family: 'neue_haas_grotesk_disp55roman';
-    src: url('neuehaasdisplayroman-webfont.woff2') format('woff2'),
-         url('neuehaasdisplayroman-webfont.woff') format('woff');
+    font-family: 'neue haas grotesk display pro';
+    src: url("https://github.com/Mussa-Gamal/binge-watch/raw/main/NeueHaasDisplayRoman.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 
 /* NAVBAR */
@@ -21,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     height: 70px;
     position: fixed;
     z-index: 10000;
@@ -128,7 +125,7 @@ nav.black .logo .diff{
 
 /* TEXT */
 .title{
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     color: white;
     float: right;
     margin-top: 210px;
@@ -140,7 +137,7 @@ nav.black .logo .diff{
 
 .sub{
     color: white;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     letter-spacing: 1px;
     float: right;
     width: 500px;
@@ -155,7 +152,7 @@ nav.black .logo .diff{
     background: #000;
 }
 .title2{
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     font-size: 25px;
     color: white;
     letter-spacing: 0.1px;
@@ -168,7 +165,7 @@ nav.black .logo .diff{
 
 .sub2{
     color: white;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     letter-spacing: 1px;
     float: left;
     width: 500px;
@@ -439,7 +436,7 @@ nav.black .logo .diff{
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -481,7 +478,7 @@ nav.black .logo .diff{
 /* WATCH EVERYWHERE */
 .watch-1{
     display: flex;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     width: 100%;
     height: 780px;
     justify-content: space-between;
@@ -521,7 +518,7 @@ nav.black .logo .diff{
 /* UP TO DATE SHOWS */
 .watch-2{
     display: flex;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     width: 100%;
     height: 780px;
     justify-content: space-between;
@@ -563,7 +560,7 @@ nav.black .logo .diff{
 /* WATCH YOUR ANIME OFFLINE */
 .watch-3{
     display: flex;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     width: 100%;
     height: 780px;
     justify-content: space-between;
@@ -652,7 +649,7 @@ nav.black .logo .diff{
 
 form .effect{
     color: #03e8f466;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     position: absolute;
     left: 0;
     padding: 25px 15px;
@@ -792,7 +789,7 @@ form .effect{
 /* FOOTER */
 footer{
     color: #fff;
-    font-family: neue haas grotesk display pro;
+    font-family: 'neue haas grotesk display pro';
     height: 380px;
     background: #000 linear-gradient(180deg,#0000,#213944);
 }
@@ -893,27 +890,4 @@ footer .links p i:hover{
     height: 100%;
     background:#03e9f4;
     filter: blur(30px);
-}
-
-
-
-
-
-
-
-.toggle-button{
-    position: absolute;
-    top: 12px;
-    right: 16px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-.toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
 }
