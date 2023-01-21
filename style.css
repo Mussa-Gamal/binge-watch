@@ -6,9 +6,10 @@ body{
     height: 100%;
 }
 @font-face {
-    font-family: F16;
-    src: url("NeueHaasDisplayRoman.ttf") format('truetype');
-    font-weight: bold;
+    font-family: neue haas grotesk display pro;
+    src: 
+        url("https://drive.google.com/u/0/uc?id=1oZjkEeKp42W5c7tOZMg5TPw_jNMRcV83&export=download") format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
