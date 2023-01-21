@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4cf21a4a21.js" crossorigin="anonymous"></script>
+    <title>Binge watch.</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<!-- NAVBAR -->
+<nav>
+    <div class="nav-left">
+        <a href="#" class="logo"><span class="diff">Binge watch.</span>
+
+            <span data-text="Binge watch."></span>
+            <span data-text="Binge watch."></span>
+        </a>
+
+        <ul>
+            <li><a href="#"><span class="diff">Home</span></a></li>
+            <li><a href="#"><span class="diff">Movies</span></a></li>
+            <li><a href="#"><span class="diff">TV Series</span></a></li>
+            <li><a href="#"><span class="diff">Most Popular</span></a></li>
+            <li><a href="#">Top Airing  </a></li>
+        </ul>
+    </div>
+
+    <div class="nav-right">
+        <ul>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-circle-user"></i></li>
+        </ul>
+    </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<script type="text/javascript">
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("nav").addClass("black");
+        }
+        else{
+            $("nav").removeClass("black");
+        }
+    });
+</script>
+
+
+
+
+
+<div id="progressbar"></div>
+<div id="scrollpath"></div>
+
+
+
+<!-- HERO -->
+<div class="smooth-scroll">
+     
+    <div class="title">
+        
+        <h1>Watch the <span class="diff-color">anime</span> <br> you love.. <br> With the best <span class="diff-color">quality</span>.</h1>
+    
+    </div>
+    
+    <div class="sub">
+        <p>With over 5000+ Anime shows and the diversity of generes available, shows that carry heavy themes, ranging from lighthearted to more 
+            mature, making them relatable to all audiences. </p>
+    </div>
+
+    <div class="posters"> 
+         <div class="slide-images">
+            
+                <img src="images/tokyo ghoul.jpg" alt="" width="600px" id="image">
+            
+
+            
+         </div>
+    </div>
+
+    
+
+    <div class="bg">
+        <img src="images/bg.png" alt="" width="900px">
+    </div>
+
+    <div class="dig">
+        <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Dig in.
+        </a>
+    </div>
+</div>
+
+
+<div class="smooth-scroll">
+
+<!-- GENRES AND SLIDES -->
+<div class="number-2 reveal">
+    <div class="title2 reveal">
+        <h1>We carry the suitable <span class="diff-color-3">generes</span> to your liking.</h1>
+    </div>
+    <div class="sub2 reveal">
+        <h1>I want to watch <span class="auto-type"></span></h1>
+    </div>
+
+
+    <div class="slider reveal">
+        <div class="slide-track">
+            
+            <div class="slide">
+                <img src="genres/hxh-post.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">Hunter x Hunter</div>
+                    <p class="image-desc">Rated from the top Adventure animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/aot-post.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">Shingeki no Kyojin</div>
+                    <p class="image-desc">Rated from the top Action animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/violet-post.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">Violet Evergarden</div>
+                    <p class="image-desc">Rated from the top Drama animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/Darling-post.png" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">DARLING in the FRANXX</div>
+                    <p class="image-desc">Rated from the top Romance animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/one-post.jpeg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">One punch Man</div>
+                    <p class="image-desc">Rated from the top Comedy animes. </p>
+                </div>
+            </div>
+
+
+            
+
+            <div class="slide">
+                <img src="genres/hxh-post.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">Hunter x Hunter</div>
+                    <p class="image-desc">Rated from the top Adventure animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/aot-post.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">Shingeki no Kyojin</div>
+                    <p class="image-desc">Rated from the top Action animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/violet-post.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">Violet Evergarden</div>
+                    <p class="image-desc">Rated from the top Drama animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/Darling-post.png" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">DARLING in the FRANXX</div>
+                    <p class="image-desc">Rated from the top Romance animes. </p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="genres/one-post.jpeg" alt="">
+                <div class="image-overlay">
+                    <div class="image-title">One punch Man</div>
+                    <p class="image-desc">Rated from the top Comedy animes. </p>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- HERO-2 -->
+<div class="smooth-scroll">
+        <div class="watch-1">
+            <div class="details-bottom-1">
+                <div class="title3-1 reveal">
+                    <h1>Watch everywhere.</h1>
+                </div>
+                
+                <div class="sub3-1 reveal">
+                    <p>Stream unlimited anime shows on your phone, tablet, laptop, and TV without paying more.</p>
+                </div>
+            </div>
+
+            <div class="image-1 reveal">
+                <img src="images/dabi.jpg" alt="" width="620px">
+            </div>
+        </div>
+
+
+    <!-- HERO-3 -->
+        <div class="watch-2">
+            <div class="image-2 reveal">
+                <img src="images/demon1.png" alt="" width="620px">
+            </div>
+
+            <div class="details-bottom-2">
+                <div class="title3-2 reveal">
+                    <h1>Up-to-date shows.</h1>
+                </div>
+                
+                <div class="sub3-2 reveal">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus architecto eaque, aut nostrum mollitia accusantium asperiores placeat odio eius</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- HERO-4 -->
+        <div class="watch-3">
+            <div class="details-bottom-3">
+                <div class="title3-3 reveal">
+                    <h1>Watch your anime show offline.</h1>
+                </div>
+                
+                <div class="sub3-3 reveal">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero delectus architecto eaque, aut nostrum mollitia accusantium asperiores placeat odio eius</p>
+                </div>
+            </div>
+
+            <div class="image-3 reveal">
+                <img src="images/your name.jpg" alt="" width="620px">
+            </div>
+        </div>
+</div>
+
+<!-- FOEM -->
+<div class="sign-up">
+    <div class="image reveal">
+        <img src="images/scenery.jpg" alt="">
+    </div>
+
+    <div class="details">
+        <div class="title reveal">
+            <h1>Dig in now and watch endless of the best anime shows.</h1>
+        </div>
+
+        <form action="/" class="form-1 reveal">
+            <input type="text" name="fname" id="fname" required="required">
+            <span class="effect">FIRST NAME</span>
+
+            <input type="text" name="lname" id="lname" required="required">
+            <span class="effect">LAST NAME</span>
+
+            <input type="email" name="email" id="email" required="required">
+            <span class="effect">EMAIL ADDRESS</span>
+
+            <input type="password" name="password" id="password" required="required">
+            <span class="effect">PASSWORD</span>
+
+            <div class="dig-2">
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Dig in.
+                </a>
+            </div>
+        </form>
+
+        
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="reveal">
+    <div class="content">
+        <div class="get-in-touch">
+            <h1>GET IN TOUCH</h1>
+            <p><a href="#">mussagamal@gmail.com</a></p>
+            <p><a href="#">Contact us</a></p>
+        </div>
+    
+        <div class="pricing">
+            <h1>PRICING</h1>
+            <p><a href="#">Overview</a></p>
+            <p><a href="#">Premium Plans</a></p>
+            <p><a href="#">Affiliate Program</a></p>
+            <p><a href="#">Promotions</a></p>
+        </div>
+    
+        <div class="company">
+            <h1>COMPANY</h1>
+            <p><a href="#">About us</a></p>
+            <p><a href="#">Blog</a></p>
+            <p><a href="#">Partnerships</a></p>
+            <p><a href="#">Careers</a></p>
+        </div>
+
+        <div class="service">
+            <h1>SERVICE</h1>
+            <p><a href="#">Feedback</a></p>
+            <p><a href="#">Compare</a></p>
+            <p><a href="#">Download</a></p>
+            <p><a href="#">Bug Report</a></p>
+        </div>
+    </div>
+
+    <div class="links">
+        <h1>Binge watch.</h1>
+        <p><a href="#"><i class="fa-brands fa-facebook"></i></a></p>
+        <p><a href="#"><i class="fa-brands fa-instagram"></i></a></p>
+        <p><a href="#"><i class="fa-brands fa-linkedin"></i></a></p>
+        <p><a href="https://github.com/Mussa-Gamal" target="_blank"><i class="fa-brands fa-github"></i></a></p>
+    </div>
+</footer>
+    
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Adventure. ^820", "Drama. ^820", "Action ^820", "Romance. ^820", "Comedy. ^820", "Psychological. ^820", 
+        "Sci-Fi. ^820", "History. ^820", "Supernatural. ^820", "Magic. ^820", "Slice of Life. ^820", "Fantasy. ^820", "Horror. ^820", "Mystery. ^820", 
+        "Isekai. ^820"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    })
+
+</script>
+
+
+<script type="text/javascript">
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+    var reveals = document.querySelectorAll('.reveal');
+
+    for (var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active'); 
+        }
+        else{
+            reveals[i].classList.remove('active');
+        }
+    }
+}
+</script>
+
+
+<script>
+
+const body = document.body,
+                scrollWrap = document.getElementsByClassName("smooth-scroll")[0],
+                height = scrollWrap.getBoundingClientRect().height - 1,
+                speed = 0.04;
+
+            var offset = 0;
+
+            body.style.height = Math.floor(height) + "px";
+
+            function smoothScroll() {
+                offset += (window.pageYOffset - offset) * speed;
+
+                var scroll = "translateY(-" + offset + "px) translateZ(0)";
+                scrollWrap.style.transform = scroll;
+
+                callScroll = requestAnimationFrame(smoothScroll);
+            }
+
+            smoothScroll();
+</script>
+
+
+
+<script>
+    let progress =  document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+    }
+</script>
+</body>
+</html>
