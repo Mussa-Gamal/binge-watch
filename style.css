@@ -4,16 +4,7 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'neue haas grotesk display pro';
-}
-@font-face {
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
-    src: url("https://github.com/Mussa-Gamal/binge-watch/raw/main/NeueHaasDisplayRoman.ttf") format('truetype');
-    src: url(NeueHaasDisplayRoman.ttf);
-    src: url('neuehaasdisplayroman-webfont.woff2') format('woff2'),
-         url('neuehaasdisplayroman-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 
@@ -22,7 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     height: 70px;
     position: fixed;
     z-index: 10000;
@@ -129,7 +120,7 @@ nav.black .logo .diff{
 
 /* TEXT */
 .title{
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     color: white;
     float: right;
     margin-top: 210px;
@@ -141,7 +132,7 @@ nav.black .logo .diff{
 
 .sub{
     color: white;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     letter-spacing: 1px;
     float: right;
     width: 500px;
@@ -156,7 +147,7 @@ nav.black .logo .diff{
     background: #000;
 }
 .title2{
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-size: 25px;
     color: white;
     letter-spacing: 0.1px;
@@ -169,7 +160,7 @@ nav.black .logo .diff{
 
 .sub2{
     color: white;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     letter-spacing: 1px;
     float: left;
     width: 500px;
@@ -440,7 +431,7 @@ nav.black .logo .diff{
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,7 +473,7 @@ nav.black .logo .diff{
 /* WATCH EVERYWHERE */
 .watch-1{
     display: flex;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     width: 100%;
     height: 780px;
     justify-content: space-between;
@@ -522,7 +513,7 @@ nav.black .logo .diff{
 /* UP TO DATE SHOWS */
 .watch-2{
     display: flex;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     width: 100%;
     height: 780px;
     justify-content: space-between;
@@ -564,7 +555,7 @@ nav.black .logo .diff{
 /* WATCH YOUR ANIME OFFLINE */
 .watch-3{
     display: flex;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     width: 100%;
     height: 780px;
     justify-content: space-between;
@@ -653,7 +644,7 @@ nav.black .logo .diff{
 
 form .effect{
     color: #03e8f466;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     position: absolute;
     left: 0;
     padding: 25px 15px;
@@ -793,7 +784,7 @@ form .effect{
 /* FOOTER */
 footer{
     color: #fff;
-    font-family: 'neue haas grotesk display pro',Arial,Helvetica,sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     height: 380px;
     background: #000 linear-gradient(180deg,#0000,#213944);
 }
@@ -805,6 +796,7 @@ footer .content{
 }
 footer .content h1{
     font-size: 20px;
+    cursor: default;
 }
 footer .content p a{
     text-decoration: none;
@@ -813,6 +805,7 @@ footer .content p a{
 }
 footer .content p a:hover{
     color: #03e9f4;
+    font-style: italic;
 }
 footer .links p{
     margin: 20px 0px;
@@ -826,6 +819,9 @@ footer .links{
     display: flex;
     margin: 60px 100px;
     gap: 40px;
+}
+footer .links h1{
+    cursor: default;
 }
 
 footer .links p i:hover{
