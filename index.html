@@ -15,7 +15,7 @@
 <!-- NAVBAR -->
 <nav>
     <div class="nav-left">
-        <a href="#" class="logo"><span class="diff">Binge watch.</span>
+        <a href="#" class="logo"><span class="diff">Binge watch.</span>
 
             <span data-text="Binge watch."></span>
             <span data-text="Binge watch."></span>
@@ -26,16 +26,20 @@
             <li><a href="#"><span class="diff">Movies</span></a></li>
             <li><a href="#"><span class="diff">TV Series</span></a></li>
             <li><a href="#"><span class="diff">Most Popular</span></a></li>
-            <li><a href="#">Top Airing  </a></li>
+            <li><a href="#">Top Airing</a></li>
         </ul>
     </div>
-    
-  
+
     <div class="nav-right">
         <ul>
             <li><i class="fa-solid fa-magnifying-glass"></i></li>
             <li><i class="fa-solid fa-circle-user"></i></li>
         </ul>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
     </div>
 </nav>
 
@@ -415,6 +419,21 @@ const body = document.body,
         let progressHeight = (window.pageYOffset / totalHeight) * 100;
         progress.style.height = progressHeight + "%";
     }
+</script>
+
+
+
+
+
+
+<div class="loader-wrapper">
+    <span class="loader"></span>
+</div>
+
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    })
 </script>
 </body>
 </html>
