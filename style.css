@@ -1018,6 +1018,7 @@ footer .links p i:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10000;
 }
 .loader {
     position: relative;
